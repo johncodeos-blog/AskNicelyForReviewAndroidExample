@@ -17,9 +17,9 @@ class SocialRVAdapter(private val socialCells: List<SocialModel>) :
     RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
 
-    class PostViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
+    inner class PostViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
-    class RateViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
+    inner class RateViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
     private lateinit var mContext: Context
 
