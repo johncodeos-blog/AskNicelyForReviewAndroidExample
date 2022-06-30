@@ -29,7 +29,6 @@ class SocialRVAdapter(private val socialCells: List<SocialModel>) :
         const val RATE_VIEW_POSITION = 1
     }
 
-    private lateinit var promptView: DefaultLayoutPromptView
     private lateinit var basePromptViewConfig: BasePromptViewConfig
     private lateinit var defaultLayoutPromptViewConfig: DefaultLayoutPromptViewConfig
 
