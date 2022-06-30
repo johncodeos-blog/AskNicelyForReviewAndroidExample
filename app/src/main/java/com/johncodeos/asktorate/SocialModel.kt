@@ -1,6 +1,6 @@
 package com.johncodeos.asktorate
 
-data class SocialModel (
+data class SocialModel(
     val userProfilePic: Int,
     val userName: String,
     val userDate: String,
